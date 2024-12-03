@@ -19,7 +19,7 @@ def carregar_dados(arquivo):
         if isinstance(arquivo, str):
             df = pd.read_csv(arquivo, delimiter=';')
         else:
-            df = pd.read_csv(arquivo, delimiter=';')
+            df = pd.read_csv(arquivo, delimiter=',')
     except Exception as e:
         raise ValueError(f"Erro ao ler o arquivo CSV: {e}")
 
