@@ -1,77 +1,75 @@
-# Petro Insights - Previsão e Análise do Preço do Petróleo Brent
+# Preto Insights - Análise e Previsão de Preço do Petróleo Brent
 
-## 🚀 Sobre o Projeto
+## Sobre Nós
 
-**Petro Insights** é uma consultoria especializada em análises preditivas e estratégicas para o setor de petróleo Brent. Criamos um dashboard interativo para análise de dados históricos do preço do petróleo, com insights baseados em fatores econômicos, geopolíticos e crises globais. Nosso objetivo é fornecer previsões precisas usando modelos de Machine Learning e apoiar a tomada de decisões para um mercado dinâmico e volátil.
+**Preto Insights** é uma consultoria especializada em fornecer análises estratégicas e suporte na tomada de decisões para o mercado de petróleo Brent. Capacitando nossos clientes a entender e navegar em um ambiente global dinâmico, com base em dados precisos e insights acionáveis. Nosso objetivo é transformar desafios complexos em oportunidades por meio de análises claras e projeções confiáveis.
 
-### 🎯 Desafio
+## Desafio
 
-O desafio consistiu em desenvolver uma solução que unisse análise de dados históricos e previsões futuras dos preços do petróleo, integrando insights relevantes com base em dados concretos. Para isso, foi criado um modelo de Machine Learning utilizando **Séries Temporais** para previsão diária do preço do petróleo. A solução foi construída e está disponível em produção via **Streamlit**.
+O desafio consistiu em criar um **dashboard interativo** para apresentar insights sobre as variações do preço do petróleo Brent, com base em dados históricos. A partir de uma base de dados com duas colunas: **data** e **preço**, buscamos analisar fatores geopolíticos, crises econômicas, e a demanda global por energia para fornecer insights valiosos.
 
-### 💡 O que foi desenvolvido:
+Além disso, foi desenvolvido um modelo de **Machine Learning** para previsão diária do preço do petróleo, utilizando **análise de séries temporais**. O projeto foi implementado com foco na produção de um **MVP** que foi publicado utilizando **Streamlit**.
 
-- **Dashboard interativo**: Utilizando o Streamlit, foi construído um dashboard para visualização de dados históricos e insights.
-- **Insights de mercado**: A análise envolveu fatores como crises econômicas, geopolítica, e tendências de demanda global por energia.
-- **Modelo de Previsão**: Desenvolvemos e treinamos modelos de séries temporais (Prophet e ARIMA) para prever os preços futuros do petróleo.
-- **Deploy em produção**: A aplicação foi disponibilizada em produção através da plataforma Heroku.
+## Funcionalidades
 
-## 🌐 Como Usar
+- **Dashboard Interativo**: Visualização de dados históricos e insights sobre o comportamento do preço do petróleo.
+- **Forecasting do Preço do Petróleo**: Previsão diária do preço do petróleo utilizando modelos de **Machine Learning**.
+- **Análises**: 4 insights detalhados sobre os fatores que impactam o preço do petróleo, como crises econômicas, eventos geopolíticos e tendências globais de demanda.
+- **Deployment**: O modelo em produção foi disponibilizado via **Streamlit** e hospedado no **Heroku**.
 
-### 1. **Clone este repositório**:
+## Tecnologias Utilizadas
 
-```bash
-git clone https://github.com/wylli-wylli/petro_insights.git
-cd petro_insights
-2. Instale as dependências:
-Este projeto requer Python 3.8 ou superior. Você pode criar um ambiente virtual e instalar as dependências necessárias com o seguinte comando:
+Neste projeto, foram utilizadas as seguintes tecnologias:
 
-bash
-Copiar código
-pip install -r requirements.txt
-3. Execute o aplicativo:
-Para rodar o dashboard localmente, basta executar o seguinte comando:
+- [**Streamlit**](https://streamlit.io/): Framework de código aberto para criação de dashboards interativos e visualizações.
+- [**NumPy**](https://numpy.org/): Biblioteca para manipulação de arrays multidimensionais e operações matemáticas em Python.
+- [**Pandas**](https://pandas.pydata.org/): Biblioteca fundamental para análise de dados e manipulação de DataFrames.
+- [**Prophet**](https://facebook.github.io/prophet/): Modelo de previsão de séries temporais desenvolvido pelo Facebook, utilizado para previsão do preço do petróleo.
+- [**ARIMA**](https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html): Modelo estatístico de séries temporais usado para modelagem e previsão.
+- [**Seaborn**](https://seaborn.pydata.org/): Biblioteca de visualização de dados baseada no Matplotlib, utilizada para criar gráficos informativos e de alta qualidade.
+- [**Matplotlib**](https://matplotlib.org/): Biblioteca de visualização em 2D para criar gráficos estáticos, interativos e animados.
+- [**Heroku**](https://www.heroku.com/): Plataforma como serviço (PaaS) para deploy e hospedagem de aplicações, utilizado para disponibilizar o modelo em produção.
 
-bash
-Copiar código
-streamlit run app.py
-Isso abrirá o dashboard em seu navegador.
+## Estrutura do Projeto
 
-🛠 Tecnologias Utilizadas
-Este projeto faz uso das seguintes tecnologias e bibliotecas:
+1. **Data Preprocessing**: Limpeza e preparação dos dados históricos de preços do petróleo.
+2. **Modelos de Previsão**:
+   - Utilização de **ARIMA** e **Prophet** para prever os preços futuros.
+3. **Dashboard Interativo**: Desenvolvimento de visualizações interativas com **Streamlit** para exibir insights e previsões.
+4. **Deployment**: Publicação do modelo preditivo utilizando **Heroku**.
 
-Streamlit - Framework utilizado para criação do dashboard interativo.
-NumPy - Biblioteca fundamental para computação científica e manipulação de arrays.
-Prophet - Algoritmo de séries temporais utilizado para previsões de preços.
-ARIMA - Modelo de séries temporais para previsão de dados futuros.
-Pandas - Biblioteca para manipulação e análise de dados.
-Seaborn - Biblioteca para visualização de dados estatísticos.
-Matplotlib - Biblioteca de visualização gráfica.
-Heroku - Plataforma utilizada para deploy da aplicação em produção.
-📊 Dashboard
-O dashboard interativo desenvolvido permite a visualização e análise do histórico de preços do petróleo Brent, além de fornecer previsões diárias para o futuro do preço com base nos modelos de Machine Learning. Acesse a versão em produção do dashboard clicando no link abaixo:
+## Como Rodar o Projeto
 
-🔗 Acessar o Dashboard no Heroku
+### Requisitos
 
-🔮 Modelo de Machine Learning
-Prophet:
-O modelo Prophet foi utilizado para previsão de séries temporais, focando na previsão do preço do petróleo Brent. A utilização de Prophet permite modelar de forma eficiente a sazonalidade e tendências nos dados de séries temporais.
+- Python 3.7 ou superior
+- Bibliotecas: `numpy`, `pandas`, `matplotlib`, `seaborn`, `prophet`, `statsmodels`, `streamlit`
 
-Mais sobre Prophet: Link para a documentação
-ARIMA:
-O modelo ARIMA (AutoRegressive Integrated Moving Average) também foi explorado para prever os preços futuros, utilizando o histórico de dados. ARIMA é amplamente utilizado para dados que apresentam padrões de tendência e sazonalidade.
+### Passos
 
-Mais sobre ARIMA: Link para a documentação
-📝 Contribuições
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu_usuario/preto-insights.git
+   cd preto-insights
+
+2. Clone este repositório:
+   ```bash
+   pip install -r requirements.txt
+
+3. Clone este repositório:
+   ```bash
+   streamlit run app.py
+
+4. Acesse o dashboard interativo no seu navegador localmente.
+
+### Deploy
+O projeto está disponível em produção via **Heroku**. Para acessar, clique no link abaixo:
+
+Visite o Dashboard no Heroku
+
+###Contribuidores
 Este projeto foi desenvolvido por:
 
 Clara Crizio de Araujo Torres
 Isabela de Jesus Santos
 Willian C. Rodrigues
-Agradecemos a contribuição e o esforço de todos os envolvidos no desenvolvimento do Petro Insights.
-
-🚀 Deploy
-O modelo foi implantado em produção usando a plataforma Heroku, garantindo acessibilidade e escalabilidade para os usuários interagirem com a aplicação de forma rápida e eficiente.
-
-Documentação do Heroku
-📈 Resultados Esperados
-O modelo de previsão oferece uma visão precisa do comportamento futuro dos preços do petróleo, o que pode ser fundamental para ajudar empresas e investidores a tomarem decisões informadas em um mercado global volátil.
