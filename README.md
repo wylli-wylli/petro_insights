@@ -33,8 +33,7 @@ Neste projeto, foram utilizadas as seguintes tecnologias:
 ## Estrutura do Projeto
 
 1. **Data Preprocessing**: Limpeza e preparação dos dados históricos de preços do petróleo.
-2. **Modelos de Previsão**:
-   - Utilização de **ARIMA** e **Prophet** para prever os preços futuros.
+2. **Modelos de Previsão**: Utilização de **ARIMA** e **Prophet** para prever os preços futuros.
 3. **Dashboard Interativo**: Desenvolvimento de visualizações interativas com **Streamlit** para exibir insights e previsões.
 4. **Deployment**: Publicação do modelo preditivo utilizando **Heroku**.
 
@@ -67,11 +66,11 @@ O projeto está disponível em produção via **Heroku**. Para acessar, clique n
 
 [**Visite o Dashboard no Heroku**](https://petro-insights-c1c2ea8bf549.herokuapp.com/)
 
-### Contribuidores
+## Contribuidores
 Este projeto foi desenvolvido por:
 
-Clara Crizio de Araujo Torres.<br>Isabela de Jesus Santos.<br>Willian C. Rodrigues
+Clara Crizio de Araujo Torres.<br>Isabela de Jesus Santos.<br>Willian C. Rodrigues.
 
 <div align="center">
-  Desenvolvido com muito carinho 🧩
+  Desenvolvido 🧩 com muito carinho
 </div>
