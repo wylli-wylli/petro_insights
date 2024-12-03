@@ -193,7 +193,7 @@ def exibir_insights():
 
 # Função para exibir informações dos desenvolvedores
 def exibir_creditos():
-    st.subheader("Desenvolvedores")
+    st.subheader(":green[Desenvolvedores]", divider="green")
     st.write("Este projeto foi desenvolvido por:")
     st.write("- **Nome da Desenvolvedora:** Clara Crizio de Araujo Torres ")
     st.write("- **Nome da Desenvolvedora:** Isabela de Jesus Santos")

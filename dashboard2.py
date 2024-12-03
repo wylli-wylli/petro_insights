@@ -4,7 +4,6 @@ import pandas as pd
 import seaborn as sns
 import streamlit as st
 import matplotlib.pyplot as plt
-from annotated_text import annotated_text
 
 # Função principal que contém a lógica do dashboard2
 def main():
