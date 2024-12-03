@@ -1,4 +1,4 @@
-# Preto Insights - Análise e Previsão de Preço do Petróleo Brent
+# Preto Insights - Análise e Previsão de Preço do Petróleo Brent 📊
 
 ## Sobre Nós
 
@@ -13,7 +13,7 @@ Além disso, foi desenvolvido um modelo de **Machine Learning** para previsão d
 ## Funcionalidades
 
 - **Dashboard Interativo**: Visualização de dados históricos e insights sobre o comportamento do preço do petróleo.
-- **Forecasting do Preço do Petróleo**: Previsão diária do preço do petróleo utilizando modelos de **Machine Learning**.
+- **Forecasting do Preço do Petróleo**: Previsão diária do preço do petróleo utilizando modelos de **Machine Learning** (Prophet e ARIMA).
 - **Análises**: 4 insights detalhados sobre os fatores que impactam o preço do petróleo, como crises econômicas, eventos geopolíticos e tendências globais de demanda.
 - **Deployment**: O modelo em produção foi disponibilizado via **Streamlit** e hospedado no **Heroku**.
 
@@ -70,6 +70,8 @@ O projeto está disponível em produção via **Heroku**. Para acessar, clique n
 ### Contribuidores
 Este projeto foi desenvolvido por:
 
-Clara Crizio de Araujo Torres
-Isabela de Jesus Santos
-Willian C. Rodrigues
+Clara Crizio de Araujo Torres.<br>Isabela de Jesus Santos.<br>Willian C. Rodrigues
+
+<div align="center">
+  Desenvolvido com muito carinho 🧩
+</div>
