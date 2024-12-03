@@ -28,6 +28,7 @@ Neste projeto, foram utilizadas as seguintes tecnologias:
 - [**ARIMA**](https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html): Modelo estatístico de séries temporais usado para modelagem e previsão.
 - [**Seaborn**](https://seaborn.pydata.org/): Biblioteca de visualização de dados baseada no Matplotlib, utilizada para criar gráficos informativos e de alta qualidade.
 - [**Matplotlib**](https://matplotlib.org/): Biblioteca de visualização em 2D para criar gráficos estáticos, interativos e animados.
+- [**Power BI**]([https://www.heroku.com/](https://learn.microsoft.com/en-us/power-bi/)): Plataforma Microsoft, utilizada para a análise exploratória inicial dos dados, visando a compreensão das séries.
 - [**Heroku**](https://www.heroku.com/): Plataforma como serviço (PaaS) para deploy e hospedagem de aplicações, utilizado para disponibilizar o modelo em produção.
 
 ## Estrutura do Projeto
@@ -35,7 +36,8 @@ Neste projeto, foram utilizadas as seguintes tecnologias:
 1. **Data Preprocessing**: Limpeza e preparação dos dados históricos de preços do petróleo.
 2. **Modelos de Previsão**: Utilização de **ARIMA** e **Prophet** para prever os preços futuros.
 3. **Dashboard Interativo**: Desenvolvimento de visualizações interativas com **Streamlit** para exibir insights e previsões.
-4. **Deployment**: Publicação do modelo preditivo utilizando **Heroku**.
+4. **Análise e Visualização**: Utilização do Power BI para criar dashboards interativos e explorar os dados de maneira dinâmica.
+5. **Deployment**: Publicação do modelo preditivo utilizando **Heroku**.
 
 ## Como Rodar o Projeto
 
