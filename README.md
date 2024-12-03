@@ -65,9 +65,9 @@ Neste projeto, foram utilizadas as seguintes tecnologias:
 ### Deploy
 O projeto está disponível em produção via **Heroku**. Para acessar, clique no link abaixo:
 
-Visite o Dashboard no Heroku
+[**Visite o Dashboard no Heroku**](https://petro-insights-c1c2ea8bf549.herokuapp.com/)
 
-###Contribuidores
+### Contribuidores
 Este projeto foi desenvolvido por:
 
 Clara Crizio de Araujo Torres
