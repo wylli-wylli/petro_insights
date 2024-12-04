@@ -10,7 +10,6 @@ def exibir_imagem_e_legenda(imagem_path, legenda_texto, largura_imagem=150):
     if os.path.exists(imagem_path):
         st.image(imagem_path, width=largura_imagem)
         
-        # Centraliza e formata a legenda em negrito
         st.markdown(
             f'<p style="text-align: left; font-weight: bold;">{legenda_texto}</p>', 
             unsafe_allow_html=True
